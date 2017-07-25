@@ -1,0 +1,79 @@
+body {
+	margin: 0px;
+	background-color: beige;
+}
+.main-route, .bords-route, .bitum-route, .ligne-blanche-bitum {
+	width: 100%;
+}
+
+.main-route {
+	height: auto;
+	
+}
+
+.bords-route {
+	height: 120px;
+	background-color: beige;
+}
+
+.bitum-route {
+	height: 250px;
+	padding-top: 205px;
+	background-color: grey;
+}
+
+.ligne-blanche-bitum {
+	height: 30px;
+	background-color: white;
+}
+
+#frog {
+  background: url('img/arabpeople.png');
+  height: 75px;
+  width: 75px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: auto;
+  position: relative;
+}
+
+.voiture {
+	width: 150px;
+	position: absolute;
+}
+
+.voiture_vers_right-top {
+	top: 230px;
+}
+
+.voiture_vers_left-top {
+	top: 140px;
+}
+
+.voiture_vers_right-bot {
+	top: 500px;
+}
+
+.voiture_vers_left-bot {
+	top: 385px;
+}
+
+.pointillets {
+	width: 100%;
+	height: 20px;
+	position: absolute;
+	top: 205px;
+	background: url('img/pointillets.png');
+	background-repeat: repeat-x;
+}
+
+
+
+
+
+
+
+
+
+
+

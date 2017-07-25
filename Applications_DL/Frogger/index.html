@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Frogger</title> 
+        <!-- Latest compiled and minified CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">       
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> 
+
+    </head>
+    <body>
+    	<div class="main-route">
+    		<div class="bords-route">
+                <button type="button" class="btn btn-warning" id="launch-cars">Démarrer une partie</button>
+                <button type="button" class="btn btn-warning" id="stop-cars" style="margin-left:0px;">Redémarrer une partie</button> 
+                <select class="selectpicker" id="vitesseform">
+                  <option selected disabled id="option-title">Vitesse manuellement</option>                
+                  <option value="1">Très rapide</option>
+                  <option value="2">Rapide</option>
+                  <option value="3">Normale</option>
+                  <option value="4">Lente</option>
+                  <option value="5">Très lente</option>
+                </select>
+                <div class="info" id="info-voiture"></div>
+                <div class="info" id="info-joueur"></div>
+            </div>
+    		<div class="bitum-route">
+                <div class="pointillets"></div>
+                <div class="ligne-blanche-bitum"></div>
+                <div class="pointillets" style="top:445px;"></div>
+            </div>
+    		<script src="main.js"></script>            
+            <!-- <div id="user2" onmousedown="on_mouse_down_frog(event)"></div> -->
+    	</div>
+           
+    </body>
+</html>
+

@@ -1,0 +1,495 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+@font-face {
+font-family: Bebas Neue;
+src: url("../fonts/BebasNeue Book.otf") format("opentype");
+}
+
+@font-face {
+font-family: Bebas NeueB;
+src: url("../fonts/BebasNeue Bold.otf") format("opentype");
+}
+
+@font-face {
+font-family: Bebas NeueL;
+src: url("../fonts/BebasNeue Light.otf") format("opentype");
+}
+
+#scolaire span {
+    font-size: 14px;
+    font-family: 'Bebas Neue';
+}
+
+h4 {
+    font-family: 'Bebas Neue';
+    font-size: 18px;
+}
+
+.timeline:before {
+    top: 190px;
+}
+
+#services h4 {
+    font-size: 24px;
+}
+
+#portfolio h2 {
+    font-family: 'Bebas NeueB';
+    font-size: 24px;
+}
+
+#portfolio img {
+    height: 240px;
+}
+
+header {
+	/*background-image: none;*/
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: #444444;
+    border-color: #444444;
+}
+
+@media (min-width: 768px) {
+	.navbar-default.navbar-shrink {
+	background-color: #444444;
+	color: #444444;
+	padding: 0px 0;
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar-default {
+	    background-color: #444444;
+	    padding: 0px 0;
+	    -webkit-transition: padding .3s;
+	    -moz-transition: padding .3s;
+	    transition: padding .3s;
+	    border: 0;
+	}
+}
+
+.navbar-default .nav li a {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: 20px;
+    font-family: Montserrat,"Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: white;
+    background-color: #444444;
+}
+
+@media (min-width: 768px) {
+	header .intro-text .intro-heading {
+	    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	    text-transform: uppercase;
+	    font-weight: 700;
+	    color: #444444;
+	    font-size: 50px;
+	    line-height: 75px;
+	    margin-bottom: 50px;
+	}
+}
+
+.text-primary {
+    color: #2196f3;
+}
+
+a {
+	color: #2196f3;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    background: rgba(33,150,243,.7);
+    opacity: 0.6;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+}
+
+::selection {
+    text-shadow: none;
+    background: #2196f3;
+}
+
+.timeline>li .timeline-image {
+    position: absolute;
+    z-index: 100;
+    background-color: white;
+    color: #fff;
+    border-radius: 100%;
+    border: none;
+    text-align: center;
+}
+
+@media (min-width: 768px){
+	section {
+	    padding-top:40px;
+        padding-bottom: 40px;
+	}
+}
+
+.btn-xl {
+    color: #fff;
+    background-color: #2196f3;
+    border-color: #1565c0;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 20px 40px;
+}
+
+.btn-xl:hover, .btn-xl:active, .btn-xl:focus {
+	background-color: #1565c0;
+	border-color: #2196f3;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+@media (min-width: 768px) {
+	.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+	    margin-right: 25px;
+	    margin-left: 25px;
+	}
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
+.carousel-control.left, .carousel-control.right {
+	background-image: none;
+    background-color: transparent;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+section h2.section-heading {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.team-member img {
+    margin: 0 auto;
+    border: 1px solid black;    
+    max-width: 150px;
+}
+
+.team-member img {
+    border-radius: none; 
+}
+
+.carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,0);
+    filter: alpha(opacity=50);
+    opacity: .8;
+}
+
+h2 {
+    margin: 0 0 45px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    font-family: inherit;
+    line-height: 1.1;
+    font: 300 13px/20px 'Bebas NeueB',sans-serif;
+}
+
+.carousel-caption h2 {
+	margin: 0 0 45px;
+    font-size: 36px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    font-family: inherit;
+    line-height: 1.1;
+    font: 300 'Open Sans',sans-serif;
+}
+.resume-box {
+    text-align: justify;
+}
+
+.resume-box, .social li:last-child {
+    padding: 0;
+}
+
+.info li, .nav li, .resume-box li, .social li {
+    list-style-type: none;
+}
+
+.resume-box li {
+    margin-bottom: 5px;
+}
+
+.resume-box h4 {
+    /*margin-top: 0;*/
+}
+
+.resume-box span {
+    font-weight: 200;
+    font-family: 'BebasNeueL';
+    /*font-style: italic;*/
+}
+
+.section-background {
+    background: #fff;
+    padding: 80px 60px;
+}
+
+.section-background h2 {
+    margin: 0 0 45px;
+    font-size: 20px;
+}
+
+.box-content {
+    padding: 10px 0;
+    height: 140px;
+    padding-left: 170px;
+}
+
+p span{
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 200;
+    font-stretch: normal;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h4 {
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.resume-box, .social li:last-child {
+    padding: 0;
+}
+
+#educ .resume-box {
+    font: 200 13px/20px 'Open Sans' ,Arial, sans-serif;
+}
+
+#educ h2 {
+    position: relative;
+}
+
+h2::before {
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    background: #141414;
+    height: 1.5px;
+}
+
+.lines::after, .lines::before {
+    content: '';
+    left: 0;
+}
+
+.black-layer {
+    background: rgba(0,0,0,.3);
+    width: 100%;
+    height: 100%;
+}
+
+.hire-background, .image-title, .nav, .popup-content h3, .skills-background, .social a {
+    text-align: center;
+}
+
+.skills-background {
+    background: url('http://wallpapercave.com/wp/GMD6HCl.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .middle-content {
+        position: relative;
+        top: 50%;
+        -webkit-transform: translate(0,-50%);
+        -moz-transform: translate(0,-50%);
+        -ms-transform: translate(0,-50%);
+        -o-transform: translate(0,-50%);
+        transform: translate(0,-50%);
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .skill-bar {
+        margin-right: 40px;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .fact-box, .skill-bar {
+        display: inline-block;
+    }
+}
+
+.skill-bar h4 {
+    color:white;
+}
+
+#scolaire {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#scolaire .section-background h2::before{
+    content: '';
+    left: 0;
+}
+
+.white-layer {
+    background: rgba(255,255,255,.9);
+    width: 100%;
+    height: 100%;
+}
+
+.devis-content {
+    margin-bottom: 20px;
+    color: #141414;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.skill-bar a {
+    display: inline-block;
+    background: #141414;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.resume-box span {
+    color: #b4b4b4;
+    font-weight: 200;
+}
+
+#scolaire .section-background {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: auto;
+    padding-bottom: 0px;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #2196f3;
+    border-color: #1565c0;
+}
+
+footer {
+    padding: 15px 0;
+    text-align: center;
+}
+
+a:hover{
+    background-color: white;
+    color:#2196f3;
+}
+
+ul.social-buttons li a:hover{
+    background-color: #2196f3;
+}
+
+#veille img {
+    height: 150px;
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+    font-size: 12px;
+}
+
+#veilleJ .portfolio-item .portfolio-caption {
+    background-color: transparent;
+}
+
+#veilleJ img {
+    height: 150px;
+}
+
+section h3.section-subheading {
+    margin-bottom: 40px;
+}

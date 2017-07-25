@@ -1,0 +1,153 @@
+@media (min-width: 1200px) {
+	.timeline>li.timeline-inverted>.timeline-panel {
+	    padding: 0 100px 20px 20px;
+	    padding-bottom: 0px;
+	}
+}
+@media (min-width: 992px) {
+	.timeline>li.timeline-inverted>.timeline-panel {
+	    padding: 0 20px 20px;
+	    padding-bottom: 0px;
+	}
+}
+
+@media (min-width: 768px) {
+	.timeline>li.timeline-inverted>.timeline-panel {
+	    float: right;
+	    text-align: left;
+	    padding: 0 30px 20px 20px;
+	    padding-bottom: 0px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.resume-box li {
+	    margin-bottom: 30px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.year {
+	    padding-bottom: 5px;
+	    border-bottom: 1px solid #dcdcdc;
+	    text-align: left;
+	    height: auto;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.year {
+	    float: left;
+	    width: 150px;
+	    height: 140px;
+	    padding: 0 20px;
+	    border-right: 1px solid #dcdcdc;
+	    text-align: center;
+	}
+}
+
+
+@media only screen and (max-width: 1480px) {
+	.box-content {
+	    height: 160px;
+	    padding-left: 170px;
+	}
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+	.box-content {
+	    height: 190px;
+	    padding-left: 170px;
+	}
+}
+
+@media only screen and (max-width: 1480px) {
+	.skills-background {
+	    height: 585px;
+	}
+}
+
+@media only screen and (min-width: 1480px) {
+	.skills-background {
+	    height: 585px;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.skills-background {
+	    height: 674px;
+	}
+}
+
+@media only screen and (max-width: 1480px) {
+	.year {
+	    height: 160px;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.box-content, .year{
+	    height: auto;
+	    padding-left: 0px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#skills-background-2{
+	    display: none;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.skills-background{
+	    height: 790px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.resume-box span, .year h4 {
+	    display: inline-block;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.year div {
+	    position: relative;
+	    top: 50%;
+	    -webkit-transform: translate(0,-50%);
+	    -moz-transform: translate(0,-50%);
+	    -ms-transform: translate(0,-50%);
+	    -o-transform: translate(0,-50%);
+	    transform: translate(0,-50%);
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#scolaire .section-background{
+	    padding-left: 30px;
+	    padding-right: 30px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.resume-box span::before {
+	    content: "@";
+	    padding: 0 2px 0 3px;
+	    font-size: 13px;
+	}
+}
+
+@media (max-width: 870px) {
+	.navbar-nav>li {
+	    float: left;
+	}
+}
+/*Portfolio */
+
+@media only screen and (max-width: 768px) {
+	#portfolio img {
+	    width: 370px;
+	}
+}
